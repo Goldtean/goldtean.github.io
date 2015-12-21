@@ -1,0 +1,81 @@
+html {
+  background-image: url(http://goldtean.github.io/imgs/yyc.jpg); 
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.title {
+   text-align: center;
+}
+
+.big {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.medium {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.divider {
+  margin-left: 0;
+  height: 0px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  height: 100px;
+  color: black;
+  text-shadow: 2px 2px 2px white,
+                -2px -2px 2px white,
+                -2px 2px 2px white,
+                2px -2px 2px white;
+}
+
+.blog {
+  margin-top: 5%;
+  margin-left: 15%;
+  text-align: left;
+}
+
+.about {
+  margin-left: 15%;
+  text-align: left;
+}
+
+.projects {
+  margin-left: 15%;
+  text-align: left;
+}
+
+.resume {
+  margin-left: 15%;
+  text-align: left;
+}
+
+.twitter-follow-button {
+  margin: auto;
+}
+
+a {
+
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 2px white,
+                -2px -2px 2px white,
+                -2px 2px 2px white,
+                2px -2px 2px white;
+}
