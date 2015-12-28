@@ -1,19 +1,14 @@
 .margin {
 	margin-left: 50px;
 }
+
 .border {
 	margin-left: 50px;
-	
 	border-style: dashed;
 }
+
 .padding {
 	margin-left: 50px;
-
 	border-style: dashed;
-
 	padding: 50px;
-}
-
-img {
-	vertical-align: text-middle;
 }
