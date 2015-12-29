@@ -1,0 +1,48 @@
+/**/
+
+* {
+	font-family: -apple-system, "San Francisco", "Helvetica Neue", Arial, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: purple;
+}
+
+h1 {
+	color: gray;
+}
+
+img {
+	width: 90%;
+}
+
+.column {
+	width: 45%;
+ 	display: inline-block;
+ 	vertical-align: top;
+}
+
+.column-1 {
+  	margin-left: 5%;
+}
+
+details p {
+	margin-right: 10%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
