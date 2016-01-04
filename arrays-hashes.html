@@ -6,8 +6,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheets/week3.css">
     <title>Week 3 - Rumble In The Ruby Jungle</title>
-<!-- Beautify ruby code in HTML -->
-
   </head>
 
   <body>
@@ -19,20 +17,31 @@
     <section class="column">
       <article>
         <h2>Rumble In The Ruby Jungle - Arrays vs. Hashes</h2>
-        <p>Ever since Ruby was created by Rubert R. Rubinsky in 1885*, code writers have been fighting about which way to gather things inside of other things. Many PCs lives have been lost. Let's end the siliconshed.</p>
-        <p>Basically, an array is a list of ruby ojects. These objects can be numbers like integers or floats, or groups of letters like names or other data. When you want to pull an object from the list, you call it in this format: "rubyarray(0)". That line would basically pull the very first item in an array named rubyarray. Because Ruby isn't afraid of zeroes, 0 is the first object in an array, and 1 is the second object.</p>
-        <p>Hashes are similar to arrays. They also store data, but they store it in the form of key / value combinations. Where you would call an object in an array by it's relative position inside of the array, you would call a value by it's key inside of a hash.</p>
-        <p>Here's how to create an array or a hash in Ruby:</p>
+        <p>An array is a list of ruby objects. These objects can be numbers like integers (eg. 9) or floats (eg. 9.0), or strings like names or other words (eg. "Austin Powers".) They can even be methods, or hashes, or arrays. An array inside of an array? Yes, not only can Ruby do Inception, it can go as many layers deep as you want.</p>
+        <p>When you want to pull an object from the list, you call it in this format:</p>
+        <p><div class="CodeRay">
+  <div class="code"><pre>                array_inception = [[<span style="color:#00D">10</span>, <span style="color:#00D">9</span>, <span style="color:#00D">8</span>], <span style="color:#00D">100</span>, <span style="color:#00D">1000</span>, <span style="color:#00D">10000</span>]
+
+                p array_inception[<span style="color:#00D">0</span>]
+
+                <span style="color:#777"># =&gt; [10, 9, 8]</span></pre></div>
+</div>
 
 
-        <p>array1 = ["item1", "item2", 3, 4]</p>
-        <p class ="brush: ruby">my_info = {[key, value], [key, value]}</p>
-        <p>An important note about hash key / value pairs is that there cannot be repeated kays in hashes, but there can be repeated values for multiple keys.</p>
+</p>
+        <p>That line would basically pull the very first item in an array named rubyarray. Because Ruby isn't afraid of zeroes, 0 is the first object in an array, which in this case corresponds to 10. 1 is the second object, and 2 is the third and so on.</p>
+        <p>Hashes are similar to arrays. They also store ojbects, but they store them in the form of key / value combinations. Where you would call an object in an array by it's relative position inside of the array, you would call a value by it's key inside of a hash.</p>
+        <p><div class="CodeRay">
+  <div class="code"><pre>                spy = {<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">International Man Of Mystery</span><span style="color:#710">&quot;</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Austin Powers</span><span style="color:#710">&quot;</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">007</span><span style="color:#710">&quot;</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Bond, James Bond</span><span style="color:#710">&quot;</span></span> }
+                
+                p spy[<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">007</span><span style="color:#710">&quot;</span></span>]
+                
+                <span style="color:#777"># =&gt; &quot;Bond, James Bond&quot;</span></pre></div>
+</div></p>
+        <p>An important note about hash key / value pairs is that there cannot be repeated keys in hashes, but there can be repeated values for multiple keys.</p>
         <p><img src="imgs/basil.jpg"></p>
-        <p>Putting it all together, arrays should be used when you want to store a list of data that is significant on its own. Say, for example, you want to analyze return variations for a certain stock over a period of time. You could use an array. But say you wanted to analyze that same list of returns, but you wanted a timestamp associated with each price. Since a stock can have the same price at multiple times, but can only have one price at any given time, the timestamp should be the key and the value should be the stock's price.</p>
-        <p>*</p>
-        <p>a = (Rubert R. Rubinsky invents Ruby in 1885)</p>
-        <p>bullshit?.detect(a) = true</p>
+        <p>Putting it all together, arrays should be used when you want to store a list of data that is significant on its own. Say, for example, you want a list of returns for a stock so that you could analyze their variance. You could use an array. But say you wanted to analyze that same list of returns, but you wanted a timestamp associated with each price. Since a stock can have the same price at multiple times, but can only have one price at any given time, the timestamp should be the key and the value should be the stock's price.</p>
+      <p>That's all for this week, folks!</p>
       </article>
 
     </section>
