@@ -21,19 +21,37 @@ a:active {
 }
 
 header {
+	margin-top: -125px;
 	text-align: center;
 }
 
-h1 {
-	color: red;
-	text-shadow: 1px 1px 1px black,
-                -1px -1px 1px black,
-                -1px 1px 1px black,
-                1px -1px 1px black;
+.wrapper img {
+	margin-top: 0px;
+	width: 100%;
 }
 
-img {
-	margin-top: 15%;
+h1 {
+
+	font-weight: bold;
+	color: red;
+	text-shadow: 2px 2px 2px black,
+                -2px -2px 2px black,
+                -2px 2px 2px black,
+                 2px -2px 2px black;
+}
+
+header p {
+	font-size: large;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black,
+                -2px -2px 2px black,
+                -2px 2px 2px black,
+                 2px -2px 2px black;
+}
+
+header img {
+	margin-top: -5%;
 	width: 90%;
 }
 
