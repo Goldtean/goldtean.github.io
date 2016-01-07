@@ -21,8 +21,9 @@ a:active {
 }
 
 header {
-	margin-top: -125px;
+	margin-top: -150px;
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .wrapper img {
@@ -31,9 +32,8 @@ header {
 }
 
 h1 {
-
 	font-weight: bold;
-	color: red;
+	color: white;
 	text-shadow: 2px 2px 2px black,
                 -2px -2px 2px black,
                 -2px 2px 2px black,
@@ -48,11 +48,6 @@ header p {
                 -2px -2px 2px black,
                 -2px 2px 2px black,
                  2px -2px 2px black;
-}
-
-header img {
-	margin-top: -5%;
-	width: 90%;
 }
 
 .column {
@@ -71,5 +66,5 @@ details p {
 
 footer {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 30px;
 }
