@@ -1,12 +1,4 @@
-h1 {
-	font-family: sans-serif;
-	text-align: center;
-	text-shadow: 2px 2px 2px white,
-                -2px -2px 2px white,
-                -2px 2px 2px white,
-                2px -2px 2px white;
-}
 
-table {
-	text-align: center;
+details {
+	margin-left: 10%;
 }

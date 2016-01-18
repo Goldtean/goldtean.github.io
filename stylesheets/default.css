@@ -1,76 +1,97 @@
-html {
-  background-image: url(http://goldtean.github.io/imgs/yyc.jpg); 
-  background-size: cover;
-  background-color: black;
-  background-repeat: no-repeat;
+/*For hacker eyes only.*/
+
+* {
+  font-family: -apple-system, "San Francisco", "Helvetica Neue", Arial, sans-serif;
 }
 
-.title {
-   text-align: center;
+a:link {
+    text-decoration: none;
+    color: red;
 }
 
-.big {
-  font-weight: bold;
-  font-size: 60px;
+a:visited {
+    color: black;
 }
 
-.medium {
-  font-weight: bold;
-  font-size: 30px;
+a:hover {
+    color: black;
 }
 
-.divider {
-  margin-left: 0;
-  height: 0px;
-  width: 100%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
+a:active {
+    color: red;
 }
 
-.copyright {
+header {
+  margin-top: -170px;
   text-align: center;
-  font-size: 20px;
+  margin-bottom: 50px;
 }
 
-p {
-  height: 100px;
-  color: black;
+.wrapper img {
+  margin-top: 0px;
+  width: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black,
+                -2px -2px 2px black,
+                -2px 2px 2px black,
+                 2px -2px 2px black;
+}
+
+header p {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black,
+                -2px -2px 2px black,
+                -2px 2px 2px black,
+                 2px -2px 2px black;
+}
+
+nav a {
+  margin: 5%;
+}
+
+nav {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
   text-shadow: 2px 2px 2px white,
                 -2px -2px 2px white,
                 -2px 2px 2px white,
-                2px -2px 2px white;
+                 2px -2px 2px white;
+
 }
 
-.blog {
+.column {
   margin-top: 5%;
-  margin-left: 15%;
-  text-align: left;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.about {
-  margin-left: 15%;
-  text-align: left;
+.column-1 {
+  margin-top: 5%;
+    margin-left: 5%;
 }
 
-.projects {
-  margin-left: 15%;
-  text-align: left;
+.column-3 {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 5%;
 }
 
-.resume {
-  margin-left: 15%;
-  text-align: left;
+details p {
+  margin-right: 10%;
 }
 
-a {
-  font-weight: bolder;
-  font-size: 25px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: black;
-  text-shadow: 2px 2px 2px white,
-                -2px -2px 2px white,
-                -2px 2px 2px white,
-                2px -2px 2px white;
+footer {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 30px;
 }
