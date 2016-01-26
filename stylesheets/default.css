@@ -99,3 +99,12 @@ footer {
 .bold {
   font-weight: bold;
 }
+
+#play {
+ margin-left: 40%;
+ width: 20%;
+}
+
+#result {
+  margin-bottom: 100px;
+}
