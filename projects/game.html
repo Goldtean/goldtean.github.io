@@ -29,9 +29,9 @@ For hacker eyes only.
     <a href="#">Contact</a>
   </nav>
 
-<h1>Jeremy Fued</h1>
-<p>Welcome to Jeremy Fued! This game will hopefully get updated with multiple questions and having the best unanswered answer show after every failed game. It's currently a work in progress. Please note, if you escape the promt you will have to start the game over.</p>
-<h2>When Jeremy is on his Playstation, what are the things he's playing?</h2>
+<h2>Jeremy Fued</h2>
+<p>Welcome to Jeremy Fued! This game will hopefully get updated with multiple questions and having the best unanswered answer show after every failed guess. It's currently a work in progress. Please note, if you escape the promt, you cannot continue the game - you will have to start over.</p>
+
 
 <button type="button" id="play" onclick="jeremyFued()">
 
@@ -44,9 +44,10 @@ function jeremyFued() {
     var board = ["1", "2", "3", "4"];
     var wrong_count = 0;
 	var right_count = 0;
-
+	document.getElementById("question").innerHTML = "When Jeremy is on his Playstation, what are some things he is doing?";
     while (right_count < 4 && wrong_count < 3) {
         var user_input = prompt("Steve Harvey: When Jeremy is on his Playstation, what are some things he is doing:", "");
+
         user_standard = user_input.toLowerCase()
         var check = answers.includes(user_standard);
         if (check == true) {
@@ -73,6 +74,7 @@ function jeremyFued() {
 }
 </script>
 </button>
+<h3 id="question"></h3>
 <p id="demo"></p>
 <p id="fuedboard"></p>
 <p id="wrong"></p>
