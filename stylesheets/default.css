@@ -108,3 +108,13 @@ footer {
 #result {
   margin-bottom: 100px;
 }
+
+#play {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.simmer {
+  margin-top: 50px;
+  text-align: center;
+}
