@@ -110,6 +110,7 @@ footer {
 }
 
 #play {
+  height: 75px;
   font-size: 15px;
   font-weight: bolder;
 }
