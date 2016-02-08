@@ -7,18 +7,22 @@
 a:link {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 a:visited {
     color: black;
+    font-weight: bold;
 }
 
 a:hover {
     color: black;
+    font-weight: bold;
 }
 
 a:active {
     color: black;
+    font-weight: bold;
 }
 
 header {
