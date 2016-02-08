@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>IMMIGRANT Developer Blog - CSS Concepts</title>
-		<link href="../stylesheets/week2.css" type="text/css" rel="stylesheet" />
-	</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../stylesheets/default.css">
+    <link rel="stylesheet" href="../stylesheets/blog.css">
+    <title>IMMIGRANT Developer Blog - CSS Concepts</title>
+  </head>
 
-<body>
-	<header>
-		<h1>Week 2</h1>
-		<h2>December 27th, 2015</2>
-	</header>
-	<aside>
-		<h2>Margins, Borders, and Padding</h2>
-	</aside>
-<main>
-	<p>Yesterday was boxing day. If you're like me, you went to the mall and after trying to find parking for 10 minutes you said "Oh hell no, I am a grown man, I don't have time for this, I'm going home." Then went on Amazon and Kijiji to look for some deals. But did you take the time to appreciate the fine margining, bordering, and padding while looking for Star Wars toys?</p>
-	<p>In this crazy world of HTML, CSS, and web design, you have things called elements. Elements are links, or pictures, or paragraphs, or anything of visual significance on the page. Elements are wrapped up between and inside of margins, boders, and padding. Each one is slightly different.</p>
-	<p>Margin is how much space is outside of the element. Border is the outline or edge of an element. Padding affects the inside of the element. Lets see them in action!</p>
-	<p><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">This image currently has no borders, margins, or padding. Let's change that.</p>
-	<p class="margin"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px.</p>
-	<p class="border"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px, plus dashed border.</p>
-	<p class="padding"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px, dashed border, and 50px padding.</p>
-	<p>Did you catch all the differences?</p>
-	<p>That's all for this week, folks! Next week's edition comes at you from the future, in a faraway year, 2016. Stay tuned!</p>
-</main>
+  <body>
+    <section class="wrapper">
+      <img src="../imgs/yyc.jpg">
+    </section>
+ 
+  <header>
+      <h1>IMMIGRANT Developer</h1>
+      <p>Finance connoisseur transitioning from retail banking to software development.</p>
+  </header>
 
-<nav>
-	<a href="http://goldtean.github.io/blog/index.html">Blog Home</a>
-	<a href="http://goldtean.github.io">Developer Site Home</a>
-</nav>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="index.html">Blog</a>
+    <a href="../about.html">About Me</a>
+    <a href="#">Contact</a>
+  </nav>
 
-<footer>
-<a href="https://twitter.com/immifin" class="twitter-follow-button" data-show-count="false">Follow @immifin</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</footer>
+    <section class="column-3">
 
-</body>
+      <article>
+        <h2>Blog Week 4</h2>
+        <p>December 27th, 2015</p>
+        <h2>Margins, Borders, and Padding</h2>
+        <p>Yesterday was boxing day. If you're like me, you went to the mall and after trying to find parking for 10 minutes you said "Oh hell no, I am a grown man, I don't have time for this, I'm going home." Then went on Amazon and Kijiji to look for some deals.</p>
+        <p>But while you may have appreciated the marble outside of a building, or a beautiful glass ceiling, did you take the time to appreciate the fine margining, bordering, and padding while looking for Star Wars toys online?</p>
+		<p>In this crazy world of HTML, CSS, and web design, you have things called elements. Elements are links, or pictures, or paragraphs, or anything of visual significance on the page. Elements are wrapped up between and inside of margins, borders, and padding. Each one is slightly different.</p>
+		<p>Margin is how much space is outside of the element. Border is the outline or edge of an element. Padding affects the inside of the element. Lets see them in action!</p>
+		<p><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">This image currently has no borders, margins, or padding. Let's change that.</p>
+		<p class="margin"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px.</p>
+		<p class="border"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px, plus dashed border.</p>
+		<p class="padding"><img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png">Margin-left 50px, dashed border, and 50px padding.</p>
+		<p>Did you catch all the differences?</p>
+		<p>That's all for this week, folks! Next week's edition comes at you from the future, in a faraway year, 2016. Stay tuned!</p>
+      </article>
 
+    </section>
+
+    <footer>
+      <p>Get my real time updates by following me on <a class="bold" href="https://www.github.com/Goldtean">Github</a> and <a class="bold" href="https://twitter.com/immifin">Twitter.</a></p>
+    </footer>
+  <!--
+In Soviet Russia, comment goes here!
+-->
+  </body>
 </html>
