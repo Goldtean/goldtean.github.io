@@ -87,7 +87,7 @@ nav {
 
 details p {
   margin-right: 10%;
-}
+} 
 
 footer {
   width: 90%;
@@ -110,12 +110,15 @@ footer {
 }
 
 #play {
+  width: 150px;
   height: 75px;
   font-size: 15px;
   font-weight: bolder;
+  margin-bottom: 100px;
 }
 
 .simmer {
   margin-top: 50px;
   text-align: center;
+
 }
