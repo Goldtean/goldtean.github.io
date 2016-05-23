@@ -1,160 +1,421 @@
-<!--
-For hacker eyes only.
--->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheets/default.css">
-    <title>IMMIGRANT Developer</title>
-  </head>
 
-  <body>
-    <section class="wrapper">
-      <video autoplay  poster="imgs/yyc.jpg" id="bgvid" loop>
-        <source src="yyc.webm" type="video/webm">
-      </video>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IMMIGRANT Web Design</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="less/agency.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">IMMIDEV</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">The Huston Texas of Canada Presents</div>
+                <div class="intro-heading">IMMIGRANT Web Development</div>
+                <a href="#services" class="page-scroll btn btn-xl">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Full Stack Web Developer. Will write great code for money.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Full Stack Capable</h4>
+                    <p class="text-muted">We can go from concept to live web application. That means users, profiles, shopping carts and social media sharing. It means scalable databases serving piping hot dynamic content to you and your customers.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Check this site out on mobile and on your PC browser. It looks great either way. So will yours.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">You want secure Facebook login? We'll make it happen. You hate Zuckerberg? Secure Google login it is. You want to force your users to make a user name and password? Sometimes you have to. We'll do it right.</p>
+                </div>
+            </div>
+        </div>
     </section>
- <div id="everything">
-  <header>
-      <h1>IMMIGRANT Developer</h1>
-      <p>Finance connoisseur transitioning from retail banking to software development.</p>
-  </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects/index.html">Projects</a>
-    <a href="blog/index.html">Blog</a>
-    <a href="about.html">About Me</a>
-    <a href="#">Contact</a>
-  </nav>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Talk is cheap. Here's some stuff I've worked on.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/wearmouth.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Wearmouth Demolition</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
 
-  <section class="column column-1">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/first-aid.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>First+Aid</h4>
+                        <p class="text-muted">Front & Back End Development</p>
+                    </div>
+                </div>
 
-      <article>
-        <h2><a href="projects/index.html">Projects</a></h2>
-          <p>Talk is cheap. Here is some stuff I've been working on:</p>
-        <details>
-         <summary><code><a href="projects/simmer.html">Simmer Down Now!</a></code></summary>
-          <p>If you need a good simmering, hit this link.</p>
-        </details>
-        <details>
-         <summary><code><a href="projects/game.html">Jeremy Fued</a></code></summary>
-          <p>I built a gameshow like Family Fued called Jeremy Fued in JavaScript. v1.0 is now live.</p>
-        </details>
-        <details>
-          <summary><code><a href="http://www.github.com/Goldtean">Github Account</a></code></summary>
-            <p>Code at me, bro!</p>
-            <p><a href="http://www.github.com/Goldtean"><img src="imgs/github64px.png"></a></p>
-        </details>
-        <details>
-          <summary><code><a href="http://www.rebecaiscute.com/">For A Special Someone</a></code></summary>
-            <p>My girlfriend is the best, and I made this website for her.</p>
-        </details>  
-      </article>
-
-      <article>
-        <h2><a href="#">Resume</a></h2>
-          <p>The diligence is due.</p>
-      <details>
-          <summary><code><a href="https://www.linkedin.com/in/ieronim">LinkedIn Account</a></code></summary>
-            <p>Link me in, bro!</p>
-          </details>
-      </article>
-
-      <article>
-        <h2><a href="#">Contact</a></h2>
-          <p>Ways to get a hold of me on this crazy world.</p>
-
-        <details>
-          <summary><code><a href="http://www.twitter.com/immifin">Twitter</a></code></summary>
-            <p>Tweet at me, bro!</p><p><a href="https://twitter.com/immifin" class="twitter-follow-button" data-show-count="false">Follow @immifin</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></center></p>
-        </details>
-      </article>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/rocco-wear.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Rocco Wear</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="column column-2">
-      <article>
-        <h2><a href="blog/index.html">Developer Blog</a></h2>
-          <p>The raw diary of a banker that chose to risk it all and become a hacker:</p>
-        
-        <details>
-        <summary><code><a href="#">DBC</a></code></summary>
-            <p>Coming soon!</p>
-        </details>
-        
-        <details>
-        <summary><code><a href="blog/why.html">Why?</a></code></summary>
-            <p>It's the why of the thing. That's the foundation.</p>
-        </details>
+    <!-- Team Section -->
+    <script type="text/javascript">
+        var imageArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"];
+        var getRandom = function (imAr) {
+            var num = Math.floor(Math.random() * imAr.length);
+            img = imAr[num];
+            var imgTag = '<img src="img/team/' + img + '" class="img-responsive img-circle" alt="">';
+            document.write(imgTag);
+            imageArray.splice(num, 1);
+        }
+    </script>
 
-        <details>
-          <summary><code><a href="blog/tech.html">What Is Rails?</a></code></summary>
-            <p>Baby Don't Hurt Me. Don't Hurt Me. No More.</p>
-        </details>
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Our amazing team of one does the work of three people!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <script type="text/javascript">getRandom(imageArray)</script>
+                        <h4>Jeremy Oltean</h4>
+                        <p class="text-muted">Founder<br>
+                            UI, UX & Design</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <script type="text/javascript">getRandom(imageArray)</script>
+                        <h4>Jeremy Oltean</h4>
+                        <p class="text-muted">President<br>
+                            Back End Logic & Databases</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <script type="text/javascript">getRandom(imageArray)</script>
+                        <h4>Jeremy Oltean</h4>
+                        <p class="text-muted">CEO<br>
+                            Sales & Marketing</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://twitter.com/goldtean"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
 
-        <details>
-          <summary><code><a href="blog/JavaScript.html">Rumble In The Ruby Jungle Episode II: The Script Awakens</a></code></summary>
-            <p>Ruby and JavaScript get into an all out brawl for object oriented supremacy!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/ruby-classes.html">Stay Classy</a></code></summary>
-            <p>Learn how to use classes to class things up!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/enumerable-methods.html">Enumerable Map Attack</a></code></summary>
-            <p>Learn how to use map to enumerate enumerables.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/arrays-hashes.html">Rumble In The Ruby Jungle</a></code></summary>
-            <p>Arrays and hashes go head to head in an all out scrimage!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/css-concepts.html">Margins, Borders, and Padding</a></code></summary>
-            <p>Musings of margins, borders, padding, life, and love.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/git.html">How I learned to git, git, git it.</a></code></summary>
-            <p>You either git it, or you're not a real go git'er.</p>
-        </details>
-        
-      </article>
-
-      <article>
-        <h2><a href="about.html">About Me</a></h2>
-          <p>I am attending <a href="http://devbootcamp.com/">DevBootcamp</a> in San Francisco, California from February to May 2016, where I will learn to make web applications. Afterwards, I plan to take over the world in the following ways:</p>
-
-        <details>
-          <summary><code>Become A Silicon Valley Tycoon</code></summary>
-            <p>I have some ideas that I would consider the low hanging fruit of the web app world. I will assemble a team of the best of the best from DevBootcamp and we will take the venture capital fund raising world by storm.</p>
-        </details>
-
-        <details>
-          <summary><code>Raise Money For A Hedge Fund</code></summary>
-            <p>You give me money, I give you back more money.</p>
-        </details>
-
-        <details>
-          <summary><code>Get A Real Job</code></summary>
-            <p>I love money and programming, you love great design and talented individuals willing to give it their all. Let's make a deal.</p>
-        </details>
-      </article>
-
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="http://first-aid.online">
+                        <img src="img/logos/first-aid.svg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="http://wearmouth.com">
+                        <img src="img/logos/wearmouth-logo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="http://rocco-wear.com">
+                        <img src="img/logos/roccowear.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-white">If you have money but are missing code, we should get in touch.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <form method="GET" action="mailto:jeremyoltean@gmail.com" enctype="text/plain">
+                        <textarea cols="40" rows="1" placeholder="Subject" name="subject"></textarea>
+                        <br>
+                        <textarea cols="40" rows="5" placeholder="Message" name="body"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-primary centered" value="Send">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-      <p>Get my real time updates by following me on <a class="bold" href="https://www.github.com/Goldtean">Github</a> and <a class="bold" href="https://twitter.com/goldtean">Twitter.</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; IMMIGRANT 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-</div>
-  <!--
-In Soviet Russia, comment goes here!
--->
-  </body>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Wearmouth Canada (1951) Inc.</h2>
+                            <p class="item-intro text-muted">Simple, one page design. Visit it <a href="http://wearmouth.com">here</a>.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/wearmouth.jpg" alt="">
+                            <p>Fast motion video on browsers, picture of a bulldozer on mobile. Don't you love the smell of demolition in the morning?</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>First+Aid</h2>
+                            <p class="item-intro text-muted">Donate money for disaster relief directly to local charities.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/first-aid.png" alt="">
+                            <p><a href="http://first-aid.online">First+Aid</a> was our final project at DevBootcamp. The Facebook login was done by yours truly. For logistical, tax, and other reasons, the website is not accepting donations at this time.</p>
+                            <p>Watch our final project presentation <a href="https://www.youtube.com/watch?v=KyNQY8RlJI8">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Rocco Wear</h2>
+                            <p class="item-intro text-muted">Locally made scarves, hats, and blankets.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/rocco-wear.jpg" alt="">
+                            <p>Rocco-Wear makes some cool stuff. Buy some of it <a href="https://www.etsy.com/ca/shop/RoccoWear?ref=shop_sugg">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
 </html>
