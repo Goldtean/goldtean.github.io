@@ -1,156 +1,37 @@
-<!--
-For hacker eyes only.
--->
+---
+layout: page
+description: "The rambling thoughts of a software developer"
+---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheets/default.css">
-    <title>IMMIGRANT Developer</title>
-  </head>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
 
-  <body>
-    <section class="wrapper">
-      <img src="imgs/yyc.jpg">
-    </section>
- 
-  <header>
-      <h1>IMMIGRANT Developer</h1>
-      <p>Finance connoisseur transitioning from retail banking to software development.</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects/index.html">Projects</a>
-    <a href="blog/index.html">Blog</a>
-    <a href="about.html">About Me</a>
-    <a href="#">Contact</a>
-  </nav>
-
-  <section class="column column-1">
-
-      <article>
-        <h2><a href="projects/index.html">Projects</a></h2>
-          <p>Talk is cheap. Here is some stuff I've been working on:</p>
-        <details>
-         <summary><code><a href="projects/simmer.html">Simmer Down Now!</a></code></summary>
-          <p>If you need a good simmering, hit this link.</p>
-        </details>
-        <details>
-         <summary><code><a href="projects/game.html">Jeremy Fued</a></code></summary>
-          <p>I built a gameshow like Family Fued called Jeremy Fued in JavaScript. v1.0 is now live.</p>
-        </details>
-        <details>
-          <summary><code><a href="http://www.github.com/Goldtean">Github Account</a></code></summary>
-            <p>Code at me, bro!</p>
-            <p><a href="http://www.github.com/Goldtean"><img src="imgs/github64px.png"></a></p>
-        </details>
-        <details>
-          <summary><code><a href="http://www.rebecaiscute.com/">For A Special Someone</a></code></summary>
-            <p>My girlfriend is the best, and I made this website for her.</p>
-        </details>  
-      </article>
-
-      <article>
-        <h2><a href="#">Resume</a></h2>
-          <p>The diligence is due.</p>
-      <details>
-          <summary><code><a href="https://www.linkedin.com/in/ieronim">LinkedIn Account</a></code></summary>
-            <p>Link me in, bro!</p>
-          </details>
-      </article>
-
-      <article>
-        <h2><a href="#">Contact</a></h2>
-          <p>Ways to get a hold of me on this crazy world.</p>
-
-        <details>
-          <summary><code><a href="http://www.twitter.com/immifin">Twitter</a></code></summary>
-            <p>Tweet at me, bro!</p><p><a href="https://twitter.com/immifin" class="twitter-follow-button" data-show-count="false">Follow @immifin</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></center></p>
-        </details>
-      </article>
-    </section>
-
-    <section class="column column-2">
-      <article>
-        <h2><a href="blog/index.html">Developer Blog</a></h2>
-          <p>The raw diary of a banker that chose to risk it all and become a hacker:</p>
-        <details>
-
-        <summary><code><a href="#">DBC</a></code></summary>
-            <p>Coming soon!</p>
-        </details>
-
-        <summary><code><a href="blog/why.html">Why?</a></code></summary>
-            <p>It's the why of the thing. That's the foundation.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/tech.html">What Is Rails?</a></code></summary>
-            <p>Baby Don't Hurt Me. Don't Hurt Me. No More.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/JavaScript.html">Rumble In The Ruby Jungle Episode II: The Script Awakens</a></code></summary>
-            <p>Ruby and JavaScript get into an all out brawl for object oriented supremacy!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/ruby-classes.html">Stay Classy</a></code></summary>
-            <p>Learn how to use classes to class things up!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/enumerable-methods.html">Enumerable Map Attack</a></code></summary>
-            <p>Learn how to use map to enumerate enumerables.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/arrays-hashes.html">Rumble In The Ruby Jungle</a></code></summary>
-            <p>Arrays and hashes go head to head in an all out scrimage!</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/css-concepts.html">Margins, Borders, and Padding</a></code></summary>
-            <p>Musings of margins, borders, padding, life, and love.</p>
-        </details>
-
-        <details>
-          <summary><code><a href="blog/git.html">How I learned to git, git, git it.</a></code></summary>
-            <p>You either git it, or you're not a real go git'er.</p>
-        </details>
-        
-      </article>
-
-      <article>
-        <h2><a href="about.html">About Me</a></h2>
-          <p>I am attending <a href="http://devbootcamp.com/">DevBootcamp</a> in San Francisco, California from February to May 2016, where I will learn to make web applications. Afterwards, I plan to take over the world in the following ways:</p>
-
-        <details>
-          <summary><code>Become A Silicon Valley Tycoon</code></summary>
-            <p>I have some ideas that I would consider the low hanging fruit of the web app world. I will assemble a team of the best of the best from DevBootcamp and we will take the venture capital fund raising world by storm.</p>
-        </details>
-
-        <details>
-          <summary><code>Raise Money For A Hedge Fund</code></summary>
-            <p>You give me money, I give you back more money.</p>
-        </details>
-
-        <details>
-          <summary><code>Get A Real Job</code></summary>
-            <p>I love money and programming, you love great design and talented individuals willing to give it their all. Let's make a deal.</p>
-        </details>
-      </article>
-
-    </section>
-
-    <footer>
-      <p>Get my real time updates by following me on <a class="bold" href="https://www.github.com/Goldtean">Github</a> and <a class="bold" href="https://twitter.com/immifin">Twitter.</a></p>
-    </footer>
-  <!--
-In Soviet Russia, comment goes here!
--->
-  </body>
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

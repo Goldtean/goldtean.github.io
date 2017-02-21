@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "Why?"
+subtitle:   "Blog Week 8"
+date:       2016-02-07 12:00:00 -0700
+author:     "Ieronim E Oltean"
+header-img: "img/post-bg-08.jpg"
+---
+
+<p>By now, some of you may be wondering why I would quit my well paying bank job to go live in a bunk bed (literally) in San Francisco, paying more in rent than a mortgage on a house in Calgary.</p>
+<p>One of my favourite movies is <a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1">Interstellar</a>. In it, Matthew McConaughey's character is asked to lead a mission into space to save mankind. He discusses it with Jon Lithgow, who gives him some very solid advice on making a decision - "Don't trust the right thing done for the wrong reason."</p>
+<img src="{{ site.baseurl }}/img/why.jpg">
+<p>So why am I going into web development?</p>
+<p>Well to be fair, there is this:</p>
+<img src="{{ site.baseurl }}/img/bcd.gif">
+<p>That's right, my car doors open like the car doors of a farmer. So part of the reason is that I want a Model X... like really badly. But let's be honest, I am smart, talented, and I can succeed and make lots of money in practically any field I choose.</p>
+<p>The real reasons I am moving to web development are as follows:</p>
+<p>1) I want to build things. As much as the bank tried to have us internalize the concept of "You are an advisor, you need to provide advice" at the end of the day I was not an advisor, I was a salesman. I was ranked on how much capital I was able to bring in to the bank and how much I was able to lend out. I was not ranked on the quality of my advice.</p>
+<p>Truthfully, I have nothing against sales and I'm a believer that we are all sales people practically all of the time. Ever go to a job interview? You need to sell yourself to get the job. Are you single and dating? Yeah, you're selling yourself. Ever meet someone you want to be your mentor? You better know that's selling yourself! So all in all, there's nothing wrong with sales. It's what makes the world move. But I want to sell things I really believe in. Ideally, things I've built myself.</p>
+<p>2) I'm reading a book by Andrew Grove called <a href="http://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884">High Output Management</a>, which is widely believed to be the best book on management ever written. In it, Grove talks about building a production process around whatever part of the process takes the longest time and consumes the most resources. For example, at Intel, which Andrew Grove founded and lead for a long time, they recruited engineering students out of college. One of the steps was a week long tour of Intel's offices which involved the students meeting with Intel employees. This was the longest and most expensive part of the recruitment process, since it involved paying for hotel rooms for all the recruits, as well as meals and taking time out of employees' days to meet with and interview the recruits. Their entire recruitment process was built around this step.</p>
+<p>Most of the students invited to Intel's campus were hired, because they weeded out all of candidates they didn't like ahead of the expensive campus tour. Now, some of you might be saying "Duh! If that's the kind of obvious bullshit that book teaches, then I don't need to read it since it's all common sense!"</p>
+<p>Is it, though?</p>
+<p>When I graduated university I applied to work at Cisco in a sales position. They flew about fifty candidates out to Toronto and had Cisco sales staff interview us. This was late 2007, and because hiring decisions were made in 2008 they decided to hire nobody. Fair enough, 2008 was the "Great Recession". But during the intro session, they said that the previous year they hired 4 candidates. This all seemed like a terrible waste of money to me - why fly out 50 people, put them up in a hotel, feed them, and take time out of about 10 highly paid sales people's work day, just to hire nobody.</p>
+<p>With all the money they spent on this process, they could have hired someone and paid them a full year's wages. So this "common sense" is not so common - and we're not talking about a startup lead by someone with no management experience. We're talking about the leader in network switches, a company once the most valuable on the planet and currently worth around $140bln.</p>
+<p>So the second reason I've moved to Silicon Valley is that in the webb app production process, the most expensive and time consuming part is coding. I am learning code so that I don't have to hire someone to make my app ideas come to life - I can do it all myself.</p>

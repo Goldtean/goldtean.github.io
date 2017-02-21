@@ -1,0 +1,28 @@
+# Site settings
+title: Immigrant
+header-img: img/home-bg.jpg
+email: jeremyoltean@gmail.com
+copyright_name: Ieronim E Oltean
+description: "Ieronim Oltean Immigrant Developer Blog"
+baseurl: ""
+url: "https://goldtean.github.io"
+twitter_username: goldtean
+github_username: goldtean
+facebook_username: ieronimus
+email_username: jeremyoltean@gmail.com
+
+# analytics :
+#   provider : google
+#   google:
+#     tracking_id : 'UA-92344977-1'
+#   getclicky :
+#     site_id
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

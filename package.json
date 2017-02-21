@@ -1,0 +1,19 @@
+{
+    "name": "ieronim-e-oltean-blog",
+    "title": "Ieronim E Oltean Developer Blog",
+    "version": "1.0.0",
+    "homepage": "http://goldtean.github.io",
+    "author": "Ieronim E Oltean",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-less": "~0.11.4",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-banner": "~0.2.3",
+        "grunt-contrib-uglify": "~0.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/goldtean/goldtean.github.io"
+    }
+}
