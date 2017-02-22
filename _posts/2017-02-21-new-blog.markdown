@@ -10,8 +10,8 @@ header-img: "img/post-bg-09.jpg"
 <p>Wow it's been a full year since my last blog post! And what a 365 days it's been! I learned to program, made an app for my wedding, got married, went on a crazy European honeymoon, and got a new job!</p>
 <p>I guess I never really stopped to reflect on all of it, but redoing my blog and reading some of my old posts really makes me feel like I've come a long way. I am at the point now where I can pick up any programming language and get going on it in hours.</p>
 <p>For example, I've been looking for a new blog template that I could publish on Github, and just yesterday I found Jekyll. Today it's going live!</p>
-<p>I guess this is a good time to talk about education. I spent $400 for my wife to take the Investment Funds in Canad course. She just finished University, and that course is making it easy for her to get interviews at the $40k/year minimum level vs. the $30k/year that she'd otherwise be looking at. For ~$500 she may make $10,000 more per year... education!!!</p>
-<p>So on that note, I started a Machine Learning Nanodegree program on Udacity. It cost $399 USD. It uses Python, which I knew nothing about going in, except that it's a strict language when it comes to syntax. I was expecting C / Java style syntax, but actually Python is really easy, especially if you know Ruby. You just have to watch your indentation. Another example:</p>
+<p>I guess this is a good time to talk about education. I spent $400 for my wife to take the Investment Funds in Canada course. She just finished University, and that course is making it easy for her to get interviews at the $40k/year level vs. the $30k/year that she'd otherwise be looking at. For ~$500 she may make $10,000 more per year... education beats any other investment on the planet!</p>
+<p>So on that note, I started a Machine Learning Nanodegree program on Udacity. It cost $399 USD. It uses Python, which I knew nothing about going in, except that it's a strict language when it comes to syntax. I was expecting C / Java style syntax, but actually Python is really easy, especially if you know Ruby. You just have to watch your indentation. There's a few other fun differences like this.</p>
 <p>Ruby:</p>
 ```ruby
 element.length
@@ -21,7 +21,7 @@ element.length
 len(element)
 ```
 <p>Easy peasy.</p>
-<p>I was expecting, because I know algebra like a fucking boss, that the math in Machine Learning would be intuitive and easy. Wrong! It's hard as fuck, especially if you think you know math but you don't really know math.</p>
-<p>My current assignment is to make a machine learning algorithm that reads movie reviews and predicts if the review is positive or negative. It's pretty cool! I'll post my code for it up on Github once it's finished. If you're wondering what a machine learning looks like, and perhaps also want to read some comments when it comes to the code, then check out my <a href="https://github.com/Goldtean/DLND-your-first-network">first neural network!</a> This was the first assignment in the Nanodegree, and according to my Udacity instructor I did really well on it. Little does she know, I don't have a clue how I got it to work! ;-) </p>
-<p>That's all for today, folks! Check back next week for another exciting update!</p>
+<p>I was expecting, because I know algebra like a fucking boss, that the math in Machine Learning would be intuitive and easy. Wrong! It's hard as hell, especially if you think you know math but you don't really know math.</p>
+<p>My current assignment is to make a machine learning algorithm that reads movie reviews and predicts if the review is positive or negative. It's pretty cool! I'll post my code for it up on Github once it's finished. If you're wondering what a machine learning looks like, and perhaps also want some explanations when it comes to the code, then check out my <a href="https://github.com/Goldtean/DLND-your-first-network">first neural network!</a> This was the first assignment in the Nanodegree, and according to my Udacity instructor I did really well on it. Little does she know, I don't have a clue how I got it to work! ;-)</p>
+<p>That's all for today, folks! My blog creation vacation from Python is now done, so check back next week for machine learning talk!</p>
 
