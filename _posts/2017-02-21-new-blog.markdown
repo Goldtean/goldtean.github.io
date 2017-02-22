@@ -10,8 +10,7 @@ header-img: "img/post-bg-09.jpg"
 <p>Wow it's been a full year since my last blog post! And what a 365 days it's been! I learned to program, made an app for my wedding, got married, went on a crazy European honeymoon, and got a new job!</p>
 <p>I guess I never really stopped to reflect on all of it, but redoing my blog and reading some of my old posts really makes me feel like I've come a long way. I am at the point now where I can pick up any programming language and get going on it in hours.</p>
 <p>For example, I've been looking for a new blog template that I could publish on Github, and just yesterday I found Jekyll. Today it's going live!</p>
-<p>I guess this is a good time to talk about education. I spent $400 for my wife to take the Investment Funds in Canada course. She just finished University, and that course is making it easy for her to get interviews at the $40k/year level vs. the $30k/year that she'd otherwise be looking at. For ~$500 she may make $10,000 more per year... education beats any other investment on the planet!</p>
-<p>So on that note, I started a Machine Learning Nanodegree program on Udacity. It cost $399 USD. It uses Python, which I knew nothing about going in, except that it's a strict language when it comes to syntax. I was expecting C / Java style syntax, but actually Python is really easy, especially if you know Ruby. You just have to watch your indentation. There's a few other fun differences like this.</p>
+<p>I guess this is a good time to talk about education. I started a Machine Learning Nanodegree program on Udacity. It cost $399 USD. It uses Python, which I knew nothing about going in, except that it's a strict language when it comes to syntax. I was expecting C / Java style syntax, but actually Python is really easy, especially if you know Ruby. You just have to watch your indentation. There's a few other fun differences like this.</p>
 <p>Ruby:</p>
 ```ruby
 element.length
